@@ -5,11 +5,11 @@ require 'vendor/autoload.php';
 use Aws\S3\S3Client;
 
 // Amazon S3 API credentials 
-$region = 'ap-south-1';
+$region = 'REGION';
 $version = 'latest';
-$access_key_id = 'AKIAQ5OWWT3I2FX3PUVV';
-$secret_access_key = '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';
-$bucket = 'suresh-gundapu-files';
+$access_key_id = 'ACCESS_KEY';
+$secret_access_key = 'SECRET_KEY';
+$bucket = 'BUCKET_NAME';
 
 
 $statusMsg = '';
